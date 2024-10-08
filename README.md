@@ -21,7 +21,7 @@ and many more by searching for "solr" in the TYPO3 Extension Repository (TER).
 
 In case you need access to additional features, consider to become a funding partner of the program.
 Further details including a comparison chart are provided at the program homepage.
-
+ 
 |                  | URL                                                             |
 |------------------|-----------------------------------------------------------------|
 | **Repository:**  | https://github.com/TYPO3-Solr/ext-solr                          |
