@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 
-chown -R solr:solr /var/solr /opt/solr
+if ! output=$(chown -R solr:solr /var/solr /opt/solr 2>&1); then
+    echo "Error executing chown:"
+    echo "$output"
+fi
+
+exit 0
